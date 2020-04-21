@@ -1,8 +1,8 @@
 const express = require("express");
 const app = express();
 
-const accountSid = "ACa725cb33d65faebe793f1ec68c2e4298";
-const authToken = "d9d0e809f1598e2799b7369cfec92557";
+const accountSid = "ENTER ACCOUNT SSID";
+const authToken = "ENTER ACCOUNT AUTH TOKEN";
 const client = require("twilio")(accountSid, authToken);
 
 app.get("/test", (req, res) => {
